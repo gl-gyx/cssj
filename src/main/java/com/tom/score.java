@@ -9,7 +9,7 @@ public class score {
         jack.print();
         hank.print();
         Student s =new Student();
-        GraduatedStudent jane= new GraduatedStudent();
+        GraduatedStudent jane= new GraduatedStudent("jane",99,88,88);
         jane.name="jane";
         jane.print();
     }

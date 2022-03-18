@@ -4,6 +4,7 @@ public class Student {
     String name;
     int english;
     int math;
+
     public Student(String name){
         this.name=name;
     }
@@ -22,5 +23,8 @@ public class Student {
             System.out.print("*");
         }
         System.out.println();
+    }
+    public int getAverage(){
+        return((math + english) / 2);
     }
 }

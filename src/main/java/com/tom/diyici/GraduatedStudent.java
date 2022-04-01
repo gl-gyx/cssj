@@ -1,6 +1,6 @@
-package com.tom;
+package com.tom.diyici;
 
-public class GraduatedStudent extends Student{
+public class GraduatedStudent extends Student {
     int thesis;
     public GraduatedStudent(String name,int english,int math,int thesis){
         super(name,english,math);

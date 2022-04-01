@@ -1,4 +1,4 @@
-package com.tom;
+package com.tom.eryufen;
 
 public class Customer {
     int pay;

@@ -1,13 +1,26 @@
 package com.tom.score;
 
+import com.tom.GraduateStudent;
+
+import java.util.ArrayList;
+import java.util.List;
+
 public class Scoring {
     public static void main(String[] args) {
-        int[] math={11,22,33,44};
-        int[] english={11,22,33,44};
-        String[] names={"jack","rose","tomas","hank"};
-        for(int i=0;i<=3;i++){
-            System.out.println(names[i]+"\t"+english[i]+"\t"+math[i]+"\t"+((english[i]+math[i]) /2));
-        }
+        Student jack = new Student("Jack", 78, 62);
+        Student hank = new Student("Hank", 60, 30);
+        GraduateStudent jane =
+                new GraduateStudent("Jane", 65, 82, 79);
+        jack.print();
+        hank.print();
+        jane.print();
+        /*List<Student> students = new ArrayList<>();
+        students.add(jack);
+        students.add(hank);
+        students.add(jane);
+        for (int i=0; i<students.size(); i++) {
+            Student stu = students.get(i);
+            stu.print();
+        }*/
     }
-
 }

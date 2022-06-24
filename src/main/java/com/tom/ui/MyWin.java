@@ -16,13 +16,12 @@ public class MyWin {
         //add Component
         JButton button = new JButton("OK");
         //匿名類別, Anonymous class
-        button.addActionListener(new ActionListener(){
+        button.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 System.out.println("Hello world!!");
             }
         });
-
 //        MyActionListener listener = new MyActionListener();
 //        button.addActionListener(listener);
         //Layout

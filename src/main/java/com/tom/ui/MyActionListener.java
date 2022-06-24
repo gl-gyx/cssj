@@ -1,6 +1,5 @@
 package com.tom.ui;
 
-
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
@@ -9,4 +8,3 @@ public class MyActionListener implements ActionListener {
         System.out.println("Hi");
     }
 }
-

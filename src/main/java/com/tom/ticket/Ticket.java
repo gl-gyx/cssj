@@ -1,4 +1,6 @@
-package com.tom.sanyueshiba;
+package com.tom.ticket;
+
+import com.tom.ticket.Station;
 
 public class Ticket {
     public static final int TAIPEI_STATION=100;

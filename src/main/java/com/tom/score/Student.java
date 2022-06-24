@@ -1,6 +1,8 @@
-package com.tom.diyici;
+package com.tom.score;
 
-public class Student implements Printable{
+import com.tom.score.Printable;
+
+public class Student implements Printable {
     String name;
     int english;
     int math;

@@ -1,4 +1,4 @@
-package com.tom.diyici;
+package com.tom.score;
 
 public class score {
     public static void main(String[] args) {

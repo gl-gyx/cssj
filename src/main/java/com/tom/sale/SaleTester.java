@@ -1,8 +1,4 @@
-package com.tom.eryufen;
-
-import com.tom.eryufen.Customer;
-import com.tom.eryufen.GoldenCustomer;
-import com.tom.eryufen.SilverCustomer;
+package com.tom.sale;
 
 import java.util.ArrayList;
 import java.util.List;

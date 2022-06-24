@@ -1,4 +1,4 @@
-package com.tom.sanyueshiba;
+package com.tom.ticket;
 
 import java.util.Scanner;
 

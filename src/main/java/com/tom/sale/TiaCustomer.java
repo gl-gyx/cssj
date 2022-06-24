@@ -1,6 +1,6 @@
-package com.tom.eryufen;
+package com.tom.sale;
 
-import com.tom.eryufen.Customer;
+import com.tom.sale.Customer;
 
 public class TiaCustomer extends Customer {
     public TiaCustomer(String id,int pay){

@@ -1,11 +1,9 @@
-package com.tom.eryufen;
+package com.tom.sale;
 
-import com.tom.eryufen.Customer;
-
-public class SilverCustomer extends Customer {
-
-    public SilverCustomer(String id,int pay){
+public class GoldenCustomer extends SilverCustomer {
+    public GoldenCustomer(String id,int pay){
         super(id,pay);
+        off=0.2f;
     }
 
     @Override

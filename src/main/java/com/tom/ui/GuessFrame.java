@@ -7,9 +7,10 @@ import java.awt.event.ActionListener;
 
 public class GuessFrame extends JFrame {
 
-    JButton button=new JButton("hi");
+    JButton button=new JButton("Guess");
     JLabel label=new JLabel("Zzzz...");
-
+    JTextField number=new JTextField(8);
+    int secrect=0;
     public GuessFrame(){
     super();
         JFrame frame = new JFrame();
@@ -20,15 +21,24 @@ public class GuessFrame extends JFrame {
         button.addActionListener(new ActionListener(){
             @Override
             public void actionPerformed(ActionEvent e) {
-                System.out.println("Hello!");
+                int num=Integer.parseInt(number.getText());
+                System.out.println(num);
             }
         });
         setLayout(new FlowLayout());
+        add(number);
         add(button);
         add(label);
         frame.setVisible(true);
     }
     public static void main(String[] args) {
+
         JFrame frame=new GuessFrame();
     }
 }
+
+
+
+
+
+//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
